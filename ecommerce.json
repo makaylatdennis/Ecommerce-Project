@@ -1,0 +1,140 @@
+
+
+
+[
+{
+    "productName": "Mielle Organics Rosemary Mint Shampoo",
+    "photo": "products/mielleshampoo.webp",
+    "price": "$9.78",
+    "description": "Mielle's Rosemary Mint Shampoo is the perfect cleansing shampoo, the mint works to not achieve a deep cleanse but also stimulate your scalp helping promote hair growth. "
+},
+
+{
+    "productName": "Mielle Organics Rosemary Mint Strengthening Hair Masque",
+    "photo": "products/miellehairmasque.jpg",
+    "price": "$9.97",
+    "description": "The Rosemary Mint Strengthening Hair Masque from Mielle works to help heal damaged hair and provide extra moisture."
+},
+
+
+{
+    "productName": "Mielle Pomegranate and Honey Refreshing Spray",
+    "photo": "products/miellerefresh.webp",
+    "price": "$9.97",
+    "description": "Mielle's Pomegranate and Honey Refreshinf Spray is perfect for a quick refresh for your curls, it can be used daily or as need based on your hair type."
+},
+
+
+{
+    "productName": "The Doux Mousse Def Texture Foam",
+    "photo": "products/douxmousse.webp",
+    "price": "$14.99",
+    "description": "The Doux's Mouse Def Texture Foam is the perfect wash day or roller set foam. It provides a great hold without the crunch and dehydration."
+},
+
+
+{
+    "productName": "The Doux 808 Base Gel",
+    "photo": "products/808basegel.webp",
+    "price": "$14.99",
+    "description": "The Doux 808 Base Gel is a wash day essentially that provides definition while also locking in moisture"
+},
+
+
+{
+    "productName": "The Mane Choice Alpha Multi-Vitamin Growth Oil",
+    "photo": "products/manechoiceoil.jpeg",
+    "price": "$11.11",
+    "description": "The Mane Choice Alpha Growth Oil is packed with both biotin and vitamin c to help stimulate hair growth and maintain your hair's retention."
+},
+
+
+{
+    "productName": "The Mane Choice Tropical Moringa Sweet Oil & Honey Sealing Cream",
+    "photo": "products/manecream.webp",
+    "price": "$13.80",
+    "description": "Pair it with a leave-in conditioner or use it as is, The Mane Choice Sealing Cream works to keep hair hydrated and leaves your hair smelling amazing."
+},
+
+
+
+{
+    "productName": "The Mane Choice Prickly Pear Overnight Mask",
+    "photo": "products/manechoiceov.webp",
+    "price": "$24.99",
+    "description": "If your hair needs a little extra moisture this is the product for you, this overnight mask works to not only moisturize but also detangle and strengthen. "
+},
+
+
+{
+    "productName": "The Mane Choice A-MAZ-ZON Hair Day Leave-in Conditioner ",
+    "photo": "products/manechoiceamazon.jpg",
+    "price": "$9.92",
+    "description": "This leave-in conditioner is perfect for after you cleanse your hair, it is an all natural moisturizer that is perfect for preparing or styling hair."
+},
+
+
+{
+    "productName": "Design Essentials Natural Almond & Avocado Shampoo",
+    "photo": "products/DEshampoo.webp",
+    "price": "$12.18",
+    "description": "This product is a deep cleansing yet moisturizing shampoo, it is sulfate free so it cleanses without drying out your hair."
+},
+
+{
+    "productName": "Design Essentials Natural Almond & Avocado Nourishing Co-wash",
+    "photo": "products/DEcowash.jpg",
+    "price": "$10.00",
+    "description": "This co-washing cleanser works great for those who like to cleanse in between styles without going through a full wash day. "
+},
+
+{
+    "productName": "Design Essentials Peppermint & Aloe Anti-itch Scalp Treatment ",
+    "photo": "products/de_anti_itch.jpeg",
+    "price": "$12.00",
+    "description": "This treatment works to soothe itchy scalp, it also contains Salicylic Acid to help control flaking and prevent dryness."
+},
+
+
+{
+    "productName": "Tgin Butter Cream Daily Moisturizer",
+    "photo": "products/tginbutter.jpg",
+    "price": "$14.98",
+    "description": "The Tgin Butter Cream is a moisturizer that works to combat dry hair, this product is heavier than a leave-in conditioner leaving hair moisturized for longer."
+},
+
+
+
+
+{
+    "productName": "Tgin Honey Curls Custard",
+    "photo": "products/tgincustardfront.webp",
+    "price": "$13.29",
+    "description": "The Tgin Honey Curls Custard works to create definition after hair has been moisturized, this specific custard is perfect for hair with tighter coils."
+},
+
+
+{
+    "productName": "Tgin Slip Free Satin Bonnet",
+    "photo": "products/bonnets.jpg",
+    "price": "$16.99",
+    "description": "Protect your style with Tgin's Slip Free Satin Bonnet, these bonnets protect your hair from rubbing against things and helps to make styles last longer."
+},
+
+
+{
+    "productName": "Detangling Hair Brush Kit",
+    "photo": "products/brush.webp",
+    "price": "$8.99",
+    "description": "This detangling hair brush kit works to ease the tension detangling may create on your hair. With fine flexible teeth this brush glides through hair and comes with a wide-tooth comb and scalp massager. "
+},
+
+
+{
+    "productName": "Bamboo Hair Pick by Combetter",
+    "photo": "products/hairpick.jpg",
+    "price": "$9.99",
+    "description": "What good is any style without volume? This Bamboo Hair Pick by Combetter is perfect for creating volume without frizz."
+}
+
+]

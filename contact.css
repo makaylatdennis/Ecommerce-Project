@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    font-family:Futura, sans-serif ;
+    background-color:antiquewhite;
+}
+
+
+#form{
+    
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    /* margin: 20vh auto 0 auto; */
+    padding: 1.5rem;
+    background-color: rgb(10, 162, 129);
+    border-radius: .25rem;
+    font-size: 1rem;
+    height: 40rem;
+}
+
+#form h1{
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#form button{
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgba(120, 216, 190, 0.854);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-box input:focus{
+outline: 0;
+}
+
+
+.input-box.error input{
+    border-color: red;
+    
+}
+
+.input-box.error textarea{
+    border-color: red;
+}
+
+.contact-parent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input-box{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+.input-box input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+    width: 90%;
+
+}
+
+
+.submit-parent{
+    margin-top: 4rem;
+}
+
+.input-box textarea{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+    width: 90%; 
+}

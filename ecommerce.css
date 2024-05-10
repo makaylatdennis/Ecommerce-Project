@@ -1,0 +1,138 @@
+
+body{
+    width: 100vw;
+    font-family:Futura, sans-serif;
+    background-color:antiquewhite;
+}
+
+
+
+
+
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    justify-content: center;
+    position: relative;
+    height: 30rem;
+    width: 100vw;
+    background: url("page_images/allnatural_landingpage_collage-2000-f8be22720ea7463fabf5fefb751812dc.jpg");
+  color:rgb(253, 253, 253);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+font-weight:bolder;
+}
+
+.hero-heading{
+  position: relative;
+    margin-top: 0;
+    top: 6rem;
+    margin-left: 5rem;
+    width: 6rem;
+    font-weight: bolder;
+font-size: xx-large;
+}
+ 
+
+
+
+.about-header{
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  font-weight: bolder;
+  
+  
+}
+
+
+
+.child-about{
+ position: relative;
+  font-size: x-large;
+  color:rgb(83, 163, 135);
+  font-family:Futura, sans-serif;
+  
+}
+
+.parent-about{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  height: 18rem;
+}
+
+#best-header{
+
+  text-align: center; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  color: #333;
+  margin-bottom: 20px; 
+  text-transform: uppercase;
+
+
+}
+
+.best-sellers{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth ;
+  margin-top: 7rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.best-sellers::-webkit-scrollbar{
+  display: none;
+}
+
+.product {
+  width: 15.625rem;
+  height: auto; 
+  margin-right: 20px; 
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.product:hover {
+  transform: translateY(-5px); 
+}
+
+.product-images {
+  width: 100%;
+  height: 15rem; 
+  object-fit: cover;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+
+
+
+
+@media (max-width: 500px){
+.parent-about{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+}
+
+
+
+@ media (max: 820px){
+
+}
+
+
+@ media (max: 1040px){
+/* display none for hamburger menu */
+}
