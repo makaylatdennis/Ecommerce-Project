@@ -2,25 +2,25 @@
 // Check if the current page is the index page
 if (window.location.pathname === '/index.html') {
     fetch("ecommerce.json")
-        .then(res => res.json())
+        .then(res => res.json()) // turns our response into json object
         .then(data => {
             displayBestSellers(data);
             // Initially display the first slide
             carousel(sliderIndex);
 
-            // Automatically move to the next slide every 3 seconds
+            // slides will switch every 3 seconds
 setInterval(nextSlide, 3000);
         });
 }
 
     
 
-// for homepage bestsellers instead of foreach us for loop and iterate 4 times
 
-function displayBestSellers(products) {
+
+function displayBestSellers(products) { // takes products array and iterates through 9 products 
     let productsIndex = "";
 
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 9; i++) { // for loop used to take info from each product in json file and place them in html style code
         let indexProducts = `
         <div class="product">
         <h2>${products[i].productName}</h2>
@@ -29,11 +29,11 @@ function displayBestSellers(products) {
         <p class="product-description">${products[i].description}</p>
         </div>`;
    
-        productsIndex+= indexProducts
+        productsIndex+= indexProducts // indexProducts "data" is now stored in productsIndex
     }
-    let indexProducts = document.getElementsByClassName('best-sellers')[0];
-//insert whatever class name will be used for product grid in shop page
-indexProducts.innerHTML = productsIndex
+    let indexProducts = document.getElementsByClassName('best-sellers')[0]; // indexProducts now represents the best-sellers class in html, allows us to add info to this element
+
+indexProducts.innerHTML = productsIndex // data in productsIndex will now be displayed where the best-sellers class is in html
 }
 const sliderContainer = document.querySelector(".best-sellers");
 const sliderItems = document.getElementsByClassName("product");
@@ -45,17 +45,18 @@ function carousel(index) {
         sliderItems[i].style.display = "none";
     }
 
-    // Show the current slide and the next slide
+    // Show the current product and next in a block 
     sliderItems[index].style.display = "block";
-    if (index + 1 <= sliderItems.length) { // copy code portion, index + 2, index+ 3
-        sliderItems[index + 1].style.display = "block";
+    if (index + 1 <= sliderItems.length) {                      //code portion will take 4 products at a time and display them in a block, it will keep looping through in this display until the products run out
+        sliderItems[index + 1].style.display = "block";         // once one product moves out the frame another one moves in which is why near the end of the loop we only see one product
+                                                                
     }
-
-    if (index + 2 < sliderItems.length) { // copy code portion, index + 2, index+ 3
+    
+    if (index + 2 < sliderItems.length) { 
         sliderItems[index + 2].style.display = "block";
     }
 
-    if (index + 3 < sliderItems.length) { // copy code portion, index + 2, index+ 3
+    if (index + 3 < sliderItems.length) { 
         sliderItems[index + 3].style.display = "block";
     }
 
@@ -65,10 +66,10 @@ function carousel(index) {
 
 function nextSlide() {
     sliderIndex++;
-    if (sliderIndex >= sliderItems.length) {
+    if (sliderIndex >= sliderItems.length) {// slider will start over once it reaches the end
         sliderIndex = 0;
     }
-    carousel(sliderIndex);
+    carousel(sliderIndex); 
 }
 
 

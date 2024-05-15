@@ -1,6 +1,4 @@
-/* body{
-   height: 100vh;
-} */
+
 
 /* container for brand*/
 .logo-content {
@@ -99,7 +97,7 @@ ul {
     position: fixed;
     top: 5%;
     right: 2%;
-    background: #111;
+    background: rgb(226, 123, 100);
     color: #fff;
     font-weight: 800;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -139,10 +137,6 @@ ul {
     font-size: 30px;
     cursor: pointer;
     color: #fff;
-}
-
-body {
-    background: #fff;
 }
 
 header {
@@ -200,12 +194,12 @@ header .hamburger {
     width: 50px;
 }
 
-@media(max-width:991px) {
+@media(max-width:991px) { /*devices the size of a tablet and smaller*/
     header .navigation {
-        display: none;
+        display: none; /* navbar disappears*/
     }
 
-    header .hamburger {
+    header .hamburger { /* hamburger in place*/
         display: block;
     }
 
